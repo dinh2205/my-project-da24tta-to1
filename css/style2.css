@@ -11,12 +11,12 @@
 }
 
 label[for="mk"] {
-    margin: 4px;
+    margin: 7px;
 
 }
 label{
 	font-weight: bold;
-
+	font-family: Arial;
 }
 .form-control {
     padding:5px;
@@ -34,6 +34,7 @@ label{
 	width:30%;
 	border:1px solid whitesmoke;
 	margin-left: 15px;
+	 cursor: pointer;
 }
 .button1{
 
@@ -46,7 +47,7 @@ label{
 	margin-left: 100px;
 	width:30%;
 	border:1px solid whitesmoke;
-
+	 cursor: pointer;
 }
 
 .button:hover{
