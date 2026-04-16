@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="vi">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Đăng Ký Tham Gia CLB </title>
+
+    <link rel="stylesheet" href="../css/style3.css">
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <form>
+
+            <h1>Đăng Ký Tham Gia CLB</h1>
+            <label for="name">Họ và Tên:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="mssv">Mã Số Sinh Viên:</label>
+            <input type="text" id="mssv" name="mssv">
+
+            <label for="Lớp">Lớp:</label>
+            <input type="text" id="Lớp" name="Lớp" placeholder="VD: DA24TTA">
+            <div>
+            <label for="sex">Giới Tính:</label>
+            <select id="sex" name="sex">
+                <option value="">--Chọn Giới Tính--</option>
+                <option value="Nam">Nam</option>
+                <option value="Nữ">Nữ</option>
+            </select>
+            </div>
+
+            <label for="anh">Chọn ảnh cá nhân :</label>
+            <input type="file" id="anh" name="anh" accept="image/*">
+
+            <label for="diachi">Địa Chỉ:</label>
+            <input type="text" id="diachi" name="diachi">
+
+            <label for="sdt">Số Điện Thoại:</label>
+            <input type="text" id="sdt" name="sdt">
+
+
+            <div class="clb">
+                <label for="club">Chọn CLB:</label>
+                <select id="club" name="club">
+                    <option value="">--Chọn CLB--</option>
+                    <option value="clb1">Hành Trình Sinh Viên</option>
+                    <option value="clb2">Người Tốt Việc Tốt</option>
+                    <option value="clb3">Kỹ Thuật Và Công Nghệ</option>
+
+                </select>
+                <input type="text" id="clb_khac" placeholder="Nhập CLB khác" name="clb_khac">
+            </div>
+
+
+            <div class="diemmanh">
+            <label for="diemmanh">Điểm mạnh:</label><br>
+
+            <label><input type="checkbox"> Kỹ Thuật Lập Trình</label>
+            <label><input type="checkbox" name="diemmanh"> Design website</label>
+            <label><input type="checkbox" name="diemmanh"> Làm việc nhóm</label>
+            <label><input type="checkbox" name="diemmanh">Viết Content</label>    
+            </div>
+
+
+            <label for="gioithieu">Giới Thiệu Bản Thân:</label><br>
+            <textarea id="gioithieu" name="gioithieu"></textarea><br>
+
+            <button type="submit">Đăng Ký</button>
+
+        </form>
+
+    </div>
+
+</body>

@@ -1,0 +1,113 @@
+.container{
+    width:100%;
+    height:1300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+
+
+
+form {
+    margin-top:100px;
+    margin-bottom:100px;
+    width:500px;
+    height:1100px;
+    background:#fff;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items: flex-start; 
+    flex-direction:column;
+    padding:50px;
+}
+h1 {
+  
+    color: #0bb811;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 18px;
+    color: #000000;
+    align-self: flex-start;
+}
+
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+input{
+    width:100%;
+    height:20px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    margin-bottom:20px;
+    padding:10px;
+    transition:0.3s;
+}
+textarea{
+    width:100%;
+    height:250px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    margin-bottom:20px;
+    padding:10px;
+}
+.diemmanh label {
+    width: 100%;
+    padding: 4px;
+}
+
+select {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: #038207;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    transition:0.3s;
+}
+
+textarea{
+    resize: none;
+    width:95%;
+
+}
+
+button:hover {
+    background-color: #0fc215;
+    transform: scale(1.05);
+}
+input:hover {
+    border-color: rgb(14, 182, 42);
+    transform: scale(1.01);
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #0bb811;      
+    outline: none;             
+}
+
+body{
+    margin:0;
+    padding:0;
+    background: url(../assets/imges/nenpage3.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+
+}
