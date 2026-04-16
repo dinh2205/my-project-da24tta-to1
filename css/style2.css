@@ -87,6 +87,10 @@ h2{
 	font-weight: bold;
 }
 
+input{
+	border:1px solid #ccc;
+	
+}
 input:focus{
 	outline: none;
 	border-color: rgb(38, 237, 71);
@@ -95,7 +99,7 @@ input:focus{
 
 input:hover{
 	border-color: rgb(38, 237, 71);
-	transition: 0.3s;
+	transform: scale(1.02);
 }
 body{
 	background: #e2fff1;
