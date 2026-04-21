@@ -1,10 +1,10 @@
 .container{
 
-	background: rgb(149, 255, 172);
+	background: #e2fff1;
 	width: 400px;
 	padding: 7px ;
 	padding-left: 20px;
-	margin: 80px auto;
+	margin: 90px auto;
 	border-radius: 8px;
 	
 
@@ -102,7 +102,9 @@ input:hover{
 	transform: scale(1.02);
 }
 body{
-	background: #e2fff1;
+	background: url(../assets/imges/nenpage2.jpg);
+	background-size: cover;
+    background-attachment: fixed;
 	font-family: Arial;
 	margin: 0;
 	padding: 0;
