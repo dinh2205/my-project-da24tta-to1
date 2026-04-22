@@ -10,7 +10,8 @@
 
 <body>
     <div class="container">
-        <input type="button">
+        <div id ="list">   </div>
+        <button onclick="add()">thêm</button>
     </div>
 
     <div class="row">
@@ -21,13 +22,16 @@
     </div>
 
 
-    <script>
-        function add(){
-            const myRow = document.createElement("div");
-            myRow.setAttribute("class","row");
-            const myText = document.createTextNode("Hé lô");
-            myRow.appendChild(myText);
-        }
-    </script>
+   <script>
+function add(){
+    const myRow = document.createElement("div");
+    myRow.setAttribute("class","row");
+
+    const myText = document.createTextNode("Thành công");
+    myRow.appendChild(myText);
+
+    document.body.appendChild(myRow);
+}
+</script>
 
 </body>
