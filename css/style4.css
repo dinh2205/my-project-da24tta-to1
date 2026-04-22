@@ -1,0 +1,27 @@
+table{
+    border: 1px solid rgb(210, 210, 245);
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td,th{
+    border:1px solid #3862ee;
+    padding: 10px;
+    text-align: center;
+    background-color: #ddddf0;
+}
+
+h1{
+    font-weight: bold;
+    color:rgb(5, 16, 53);
+    text-align :center;
+    padding-top: 50px;;
+}
+
+.header{
+    background: #4a76ee;
+    width:40%;
+    height: 400px;
+    margin:125px auto;
+    border-radius: 10px;
+}
