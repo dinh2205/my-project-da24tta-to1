@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+
+    <head>
+        <title>Học Phí </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/style7.css">
+
+    </head>
+
+<body>
+
+    <script>
+        const myDiv = document.createElement("div"); // tạo ra cái div
+        myDiv.setAttribute("class", "product-item"); // Thêm thuộc tính cho phần tử div 
+
+        // Tạo Div ảnh
+        const imgDiv = document.createElement("div");
+        imgDiv.setAttribute("class", "product-image");
+
+        const productImg = document.createElement("img");
+        productImg.setAttribute("src", "../assets/imges/nenpage3.jpg");
+        productImg.setAttribute("alt", "Anh dep Tra Vinh");
+        imgDiv.appendChild(productImg);
+        //thêm con vào cha
+        myDiv.appendChild(imgDiv);
+
+        // Tạo Div INFO
+        const infoDiv = document.createElement("div");
+        infoDiv.setAttribute("class", "product-info");
+        //Tên
+        const p1 = document.createElement("p");
+        const productName = document.createTextNode("Hoa hồng có gay");
+        p1.appendChild(productName);
+        //Gía
+        const p2 = document.createElement("p");
+        const productGia = document.createTextNode("2000 / bông");
+        p2.appendChild(productGia);
+
+        //Link
+        const productFile = document.createElement("a");
+        productFile.setAttribute("href", "https://hoayeuthuong.com/dien-hoa/hoa-chuc-mung/8774_dich-du-dien-hoa?gad_source=1&gad_campaignid=21267003039&gbraid=0AAAAAqhrHtYXjhqTpzuyOBlqefEthh7Qi&gclid=CjwKCAjwtcHPBhADEiwAWo3sJiwfVdBJz402gfJF4PilxIeMbKWBO15DK-nlFgpZ3IfQL4xpyBVdyxoC8bkQAvD_BwE");
+        const contentLink = document.createTextNode("Nhấn xem chi tiết");
+        productFile.appendChild(contentLink);
+        // GẮN VÀO INFO
+        infoDiv.appendChild(p1);
+        infoDiv.appendChild(p2);
+        infoDiv.appendChild(productFile);
+
+        //thêm con vào cha
+        myDiv.appendChild(infoDiv);
+        // đưa cha ra ngoài
+        document.body.appendChild(myDiv);
+    </script>
+
+    <div id="product-list">
+    <script src="..//js/lib.js"></script>
+    </div>
+    <button onclick="loadAllproducts()">Thêm </button>
+
+    <p> Nhờ gió gửi nắng bên anh</p>
+    <p> Đừng như em ướt đẫm cơn mưa</p>
+    <p> Em chẵng còn như em lúc xưa em </p>
+    <p> Vẫn đứng đây chờ.......</p>
+
+
+</body>
